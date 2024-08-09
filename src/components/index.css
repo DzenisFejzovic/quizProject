@@ -1,0 +1,169 @@
+.center {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  background-color: rgb(246, 246, 246);
+  border-radius: 30px;
+  width: 550px;
+  height: 550px;
+}
+
+.title {
+  font-family: cursive;
+  margin-top: 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.diff {
+  transform: translate(30px, 30px);
+  font-family: cursive;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.diffHolder {
+  display: flex;
+  margin-left: 30px;
+}
+
+.diffHolder button {
+  margin-right: 20px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.easy {
+  border-radius: 20px;
+  border: 1px solid rgb(63, 178, 21);
+  background-color: rgb(33, 228, 114);
+}
+
+.medium {
+  border-radius: 15px;
+  border: 1px solid rgb(178, 147, 21);
+  background-color: rgb(228, 182, 33);
+}
+
+.hard {
+  border-radius: 10px;
+  border: 1px solid rgb(178, 21, 21);
+  background-color: rgb(244, 78, 78);
+}
+
+.heartHandler {
+  outline: none;
+  text-align: center;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.diffHolder > p {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.startHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.start {
+  font-family: cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(126, 255, 126);
+  border: 1px solid rgb(63, 178, 21);
+}
+
+.question {
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.answerHolder {
+  margin-left: 5px;
+}
+
+.answerHolder > div {
+  transition: 0.3s;
+  margin: 10px;
+  background-image: url("./img/answers.png");
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.answerHolder > div:hover {
+  transition: 0.1s;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.248);
+}
+
+.answerHolder > div:active {
+  transition: 0.1s;
+}
+
+.answerHolder > div > p {
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.one {
+  transform: translate(0px, 0px);
+}
+
+.two {
+  transform: translate(270px, -70.5px);
+}
+
+.three {
+  transform: translate(270px, -60px);
+}
+
+.four {
+  transform: translate(0px, -130.5px);
+}
+
+.infoHolder2 {
+  transform: translate(0px, -100px);
+  display: flex;
+  justify-content: space-around;
+}
+
+.infoHolder2 > p {
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
